@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:src="@drawable/splashscreen" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/isearch"
+            android:layout_width="170dp"
+            android:layout_height="165dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="65dp"
+            android:backgroundTint="#551780"
+
+            android:src="@android:drawable/ic_menu_search" />
+
+        <ImageButton
+            android:id="@+id/imagebtnadd"
+            android:layout_width="170dp"
+            android:layout_height="154dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="70dp"
+            android:background="#551780"
+            android:src="@android:drawable/ic_input_add" />
+
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+        android:id="@+id/imagebtnupdate"
+        android:layout_width="170dp"
+        android:layout_height="158dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#551780"
+        android:src="@drawable/replace" />
+    <ImageButton
+        android:id="@+id/imageBtndelete"
+        android:layout_width="170dp"
+        android:layout_height="158dp"
+        android:backgroundTint="#551780"
+        android:layout_marginLeft="10dp"
+        app:srcCompat="@drawable/delete" />
+</LinearLayout>
+
+
+</LinearLayout>
+
